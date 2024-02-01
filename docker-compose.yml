@@ -2,13 +2,13 @@ version: "3.8"
    
 services:
   db:
-    image: mysql:5.7
+    image: mysql:8
     environment:
-      MYSQL_USER: dbUser
-      MYSQL_PASSWORD: dbPass
-      MYSQL_DATABASE: mysqlDatabase
-      MYSQL_ROOT: Mysql_root
-      MYSQL_ROOT_PASSWORD: rootPass
+      MYSQL_USER: dbadmin
+      MYSQL_PASSWORD: Admin2024
+      MYSQL_DATABASE: tJournalDatabase
+      MYSQL_ROOT: tJournal_root
+      MYSQL_ROOT_PASSWORD: tJournal$2024
     restart:
       unless-stopped
     volumes:

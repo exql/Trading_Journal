@@ -1,5 +1,5 @@
 -- -----------------------------------------------------
 -- Schema django
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `Trading_Assistanst` DEFAULT CHARACTER SET UTF8;
-USE `Trading_Assistanst`;
+CREATE SCHEMA IF NOT EXISTS `tJournalDatabase` DEFAULT CHARACTER SET UTF8;
+USE `tJournalDatabase`;
