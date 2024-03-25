@@ -54,3 +54,9 @@ DATABASES = {
 #### and finally just docker-compose up
 
 `docker-compose up`
+
+### If doesn't work try with
+"""first step 
+docker-compose up db
+second step:
+docker-compose up web"""
