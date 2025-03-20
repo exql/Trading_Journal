@@ -41,7 +41,7 @@ DATABASES = {
 
  `docker-compose run web python manage.py startapp polls`
 
-#### Alwys remember to run the migrate command
+#### Always remember to run the migrate command
 
 `docker-compose run web python manage.py migrate`
 
